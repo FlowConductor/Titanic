@@ -130,7 +130,7 @@ with tab_overview:
     k1.metric("Passengers in selection", f"{len(filtered):,}")
     k2.metric("Survivors", f"{int(filtered['survived'].sum()):,}")
     k3.metric("Survival rate", f"{filtered['survived'].mean():.1%}")
-    k4.metric("Average fare", f"£{filtered['fare'].mean():.2f}")
+    k4.metric("Average fare", f"{filtered['fare'].mean():.2f}")
 
     st.divider()
 

@@ -126,11 +126,10 @@ tab_overview, tab_explore, tab_prep, tab_data = st.tabs(
 # Tab 1 — Overview
 # ============================================================================
 with tab_overview:
-    k1, k2, k3, k4 = st.columns(4)
+    k1, k2, k3 = st.columns(3)
     k1.metric("Passengers in selection", f"{len(filtered):,}")
     k2.metric("Survivors", f"{int(filtered['survived'].sum()):,}")
     k3.metric("Survival rate", f"{filtered['survived'].mean():.1%}")
-    k4.metric("Average fare", f"{filtered['fare'].mean():.2f}")
 
     st.divider()
 

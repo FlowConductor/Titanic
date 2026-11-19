@@ -15,7 +15,7 @@ streamlit run app.py
 
 | Tab | Content |
 |---|---|
-| Overview | 4 KPI cards, survival counts, survival rate by class |
+| Overview | 3 KPI cards, survival counts, survival rate by class |
 | Explore | Survival rate by class and sex, age histogram, fare by class, finding |
 | Preprocessing | Missing values, Min-Max normalization, age discretization, dummy coding |
 | Data Explorer | Raw / Cleaned / Transformed views, column picker, load-and-inspect |
